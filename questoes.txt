@@ -1,0 +1,34 @@
+Defina Sistema Operacional.
+-  É um programa ou conjunto de programas, interrelacionados cuja finalidade é agir como: Gerenciador de recursos e como máquinas estendidas. Como gerenciador de recursos ele gerencia as diferentes partes do sistema de maneira eficiente. Como máquinas estendidas ele proporciona abstrações para os usuários que sejam mais convenientes para usar do que a máquina real.
+Pesquise sobre o que faz a:
+Gerência de processos
+-  A gerência de processos é uma parte integral que todo SO moderno possui. Gerencia a criação e a finalização de processos e threads, incluindo estabelecer as políticas e parâmetros que os controlam.
+Gerência de memória
+- A gerência de memória é uma parte do sistema operacional que tem a função de gerenciar eficientemente a memória: controlar quais partes estão sendo usadas, alocar memória para processos quando eles precisam dela e liberá-la quando tiverem terminado
+Gerência de armazenamento em massa
+- Está encarregada das atividades relacionadas ao gerenciamento de disco, como: gerenciamento do espaço livre; alocação de espaço de armazenamento; escalonamento de alocação de disco.
+Gerência do sistema de arquivos
+- É a parte mais visível do SO que gerencia os arquivos e as operações de arquivos(criar ou editar documentos p.e.). Também, cuida da segurança, compartilhamento dos arquivos. 
+Gerência de dispositivos (entrada e saída)
+- A gerência de dispositivos E/S fornece a estrutura para implementar os drivers de dispositivos de E/S e também uma série de serviços executivos específicos para configurar, acessar e realizar operações nos dispositivos.
+Explique de forma sucinta.
+Defina processo
+- É caracterizado por um programa em execução ou uma instância deste.
+Explique o que é o algoritmo de divisão de tempo;
+- Os algoritmos de divisão de tempo são algoritmos que auxiliam na troca de processos a serem executados.
+Explique preempcão.
+- É quando o SO, por intermédio do escalonador, pode interromper um processo em execução e passá-lo para o estado de pronto, com o objetivo de alocar outro processo na CPU.
+Quais os tipos de kernel? Cite vantagens e desvantagens de cada um.
+- Kernel Monolítico, Híbrido e microKernel. 
+Monolítico, vantagem: desempenho. Desvantagem: insegurança, pois há acesso a todas as funções do kernel. O kernel ter de ser totalmente recompilado a cada atualização em seu subsistema.
+MicroKernel, vantagem: Flexível, por um kernel modular e seus subsistemas funcionarem como uma espécie de plug-in. Por essa modularidade, se ajusta as necessidades da máquina na qual o SO está instalado.
+Hibrido, vantagem: segurança e estabilidade.
+Desvantagem: lentidão entre os módulos e processos que se comunicam entre dois ou mais microkerneis
+Supondo uma CPU simples de 3,2GHz e um quanta de 400 µs, responda quantas instruções em média essa CPU resolve no seu quanta.
+- 
+Com a CPU da questão anterior e supondo os 5 processos abaixo iniciados para processamento, calcule manualmente as medidas das alternativas abaixo para os algoritmos de escalonamento FIFO e Round Robin.
+Tempo total de processador
+Primeiro processo a ser terminado, 
+Último processo a ser terminado
+Quantidade de rodadas cada processo passou em CPU
+Em qual rodada cada processo terminou
