@@ -31,7 +31,9 @@ Hibrido, vantagem: segurança e estabilidade.
 Desvantagem: lentidão entre os módulos e processos que se comunicam entre dois ou mais microkerneis
 
 7)Supondo uma CPU simples de 3,2GHz e um quanta de 400 µs, responda quantas instruções em média essa CPU resolve no seu quanta.
-- 
+- T = 1/(3.2*10^9)
+- Instruções = (400 * 10 ^ -6) / (3.125 * 10 ^ -10)
+- Instruções = 1280000
 
 8)Com a CPU da questão anterior e supondo os 5 processos abaixo iniciados para processamento, calcule manualmente as medidas das alternativas abaixo para os algoritmos de escalonamento FIFO e Round Robin.
    a) Tempo total de processador
