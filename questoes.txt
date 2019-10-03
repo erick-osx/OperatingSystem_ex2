@@ -37,9 +37,21 @@ Desvantagem: lentidão entre os módulos e processos que se comunicam entre dois
 
 8)Com a CPU da questão anterior e supondo os 5 processos abaixo iniciados para processamento, calcule manualmente as medidas das alternativas abaixo para os algoritmos de escalonamento FIFO e Round Robin.
    a) Tempo total de processador
-   b) Primeiro processo a ser terminado, 
+        - tempo = ciclos clock / velocidade clock
+                = (A + B + C + D + E) / 3.2 10 ^ 9 
+                = 7.2315625 * 10^-5 u.t.
+   b) Primeiro processo a ser terminado
+        -FIFO 
+            Processo A
+        -Round Robin 
+            Processo B 
    c) Último processo a ser terminado
+           -FIFO 
+            Processo E
+        -Round Robin 
+            Processo E 
    d) Quantidade de rodadas cada processo passou em CPU
+        
    e) Em qual rodada cada processo terminou
 
 Processo  # Instruções
